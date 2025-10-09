@@ -34,6 +34,7 @@ int main() {
 
     // Imprime a saudação com a idade calculada
 
-    // IMPORTANTE: Este cálculo é aproximado. A idade real
-
+    // IMPORTANTE: Este cálculo é aproximado. A idade real só é alcançada na data de aniversário dentro do ano atual
+    printf("\nBom dia %s, você tem %d anos.\n", nome, idade);
+    
 }
