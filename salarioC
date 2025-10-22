@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main() {
+    // Declaração das variáveis para os salários e a soma
+    float salario1, salario2, salario3;
+    float somaSalarios, novoSalario2;
+
+    // 1. Capturar os 3 salários
+    printf("Digite o primiero salário: R$ ");
+    // Usamos %f para ler um número de ponto flutuante (float)
+    if (scanf("%f", &salario1) != 1) {
+        printf("Erro ao ler o primeiro salário.\n");
+        return 1; // Retorna um código de erro
+    }
+
+    printf("Digite o segundo salário: R$ ");
+    if (scanf("%f", &salario2) != 1) {
+        printf("Erro ao ler o segundo salário: R$ ");
+        return 1;
+    }
+
+    printf("Digite o terceiro salario: R$ ");
+    if (scanf("%f", &salario3) != 1) {
+        printf("Erro ao ler o terceiro salário: R$ ");
+        return 1;
+    }
+
+    // 2. Acrescentar 10% ao segundo salário
+    // 10% de salario2 é igual a salario2 * 0.10
+    // O novo salario2 é o salário2 original + 10%
+    novoSalario2 = salario2 * 1.10;
+    // Ou: novoSalario2 = salario2 + (salario2 * 0.10);
+
+    // 3. Fazer a soma dos salários (usando o segundo salário com o acréscimo)
+    somaSalarios = salario1 + salario2 + salario3;
+
+    // 4. Mostrar os resultados
+    printf("\n--- Resultados ---\n");
+    printf("Salario 1 original: R$ %.2f\n", salario1);
+    printf("Salario 2 original: R$ %.2f\n", salario2);
+    printf("Salario 3 original: R$ %.2f\n", salario3);
+    printf("Segundo salário com acréscimo de 10%%: R$ %.2f\n", novoSalario2);
+    printf("Soma total dos salários (com acréscimo no segundo): R$ %.2f\n", somaSalarios);
+
+    return 0; // Retorna zero para indicar que o programa executou com sucesso
+ }
