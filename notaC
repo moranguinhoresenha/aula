@@ -26,5 +26,12 @@ int main() {
     printf("Digite a terceira nota: ");
     scanf("%f", nota3);
 
-    // Chamada da 
+    // Chamada da função para calcular a média
+    media = calcularMedia(nota1, nota2, nota3);
+
+    // Exibir média e resultado
+    printf("\nMedia final> %.2fn", media);
+    verificarResultado(media);
+
+    return 0;
 }
