@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+// Função para calcular a média de três notas
+float calcularMedia(float n1, float n2, float n3) {
+    return (n1 + n2 + n3) / 3.0;
+}
+
+// Função para verificar se o aluno foi aprovado ou reprovado
+void verificarResultado(float media) {
+    if (media >= 6.0) {
+        printf("Resultado: Aprovado\n");
+    } else {
+        printf("Resultado: Reprovado\n");
+    }
+}
+
+int main() {
+    float nota1, nota2, nota3, media;
+
+    // Entrada de dados
+    printf("Digite a primeira nota: ");
+    scanf("%f", &nota1);
+    // %f significa "lendo número de ponto flutuante e armazenando na variável nota1"
+    printf("Digite a segunda nota: ");
+    scanf("%f", &nota2);
+    printf("Digite a terceira nota: ");
+    scanf("%f", nota3);
+
+    // Chamada da 
+}
