@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int categoria;
+    printf("Digite a categoria do livro (1-5): ");
+    scanf("%d", categoria);
+
+    // Estrutura de decisão com switch
+    switch(categoria) {
+        case 1:
+            printf("Categoria: ficção\n");
+            break;
+        case 2:
+            printf("Categoria: Não ficção\n");
+            break;
+        case 3:
+            printf("Categoria: Biografia\n");
+            break;
+        case 4:
+            printf("Categoria: Tecnologia\n");
+            break;
+        case 5:
+            printf("Categoria: Arte\n");
+            break;
+        default:
+            printf("Categoria inválida\n");
+    }
+
+    // Loop "for" para listar livros de uma categoria
+    printf("Listando livros da categoria %d:\n", categoria);
+    for (int i = 1; i <= 10; i++) {
+        printf("Livro %d da categoria %d\n", i, categoria);
+    }
+
+    return 0;
+}
