@@ -1,0 +1,28 @@
+#include <stdio.h>
+    
+int main(){
+    int opcao, quantidade;
+    float total = 0, parcial;
+    
+    printf("=== Lanchonete da Escola ===\n");
+    
+    do {
+        printf("\nCardápio:\n");
+        printf("1 - Cachorro Quente -- (R$5.00)\n");
+        printf("2 - X-Salada --------- (R$8.00)\n");
+        printf("3 - Refrigerante ----- (R$4.00)\n");
+        printf("4 - Suco Natural ----- (R$6.00)\n");
+        printf("0 - Finalizar Pedido\n");
+        
+        printf("\nEscolha o item: ");
+        scanf("%d", &opcao);
+        
+        if (opcao == 0) break;
+        
+        printf("Informe a quantidade: ");
+        scanf("%d", &quantidade);
+        switch(opcao) {
+            
+        }
+    }
+}
