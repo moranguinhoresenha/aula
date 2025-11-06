@@ -22,7 +22,10 @@ int main(){
         printf("Informe a quantidade: ");
         scanf("%d", &quantidade);
         switch(opcao) {
-            
+            case 1:
+                parcial = quantidade * 5.0;
+                printf("Você pediu %d Cachorro Quente(s): R$ %.2f\n", quantidade, parcial);
+                total += parcial;
         }
     }
 }
