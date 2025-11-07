@@ -26,6 +26,26 @@ int main(){
                 parcial = quantidade * 5.0;
                 printf("Você pediu %d Cachorro Quente(s): R$ %.2f\n", quantidade, parcial);
                 total += parcial;
+                break;
+            case 2:
+                parcial = quantidade * 8.0;
+                printf("Você pediu %d X-Salada(s): R$%.2f\n", quantidade, parcial);
+                total += parcial;
+                break;
+            case 3:
+                parcial = quantidade * 4.0;
+                printf("Você pediu %d refrigerante(s): R$%.2f\n", quantidade, parcial);
+                total += parcial;
+                break;
+            case 4:
+                parcial = quantidade * 6.0;
+                printf("Você pediu %d Suco Natural(s): R$%.2f\n", quantidade, parcial);
+                total += parcial;
+                break;
+            default:
+            printf("Opção inválida, tente novamente.\n");
         }
-    }
-}
+    } while (opcao !=0);
+
+    printf("\n=== TOTAL A PAGAR: R$%.2f")
+} 
