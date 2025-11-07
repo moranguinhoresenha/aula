@@ -49,4 +49,6 @@ int main(){
 
     printf("\n=== TOTAL A PAGAR: R$%.2f ===\n", total);
     printf("Obrigado pela preferência");
+
+    return 0;
 } 
