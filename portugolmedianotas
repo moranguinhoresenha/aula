@@ -1,16 +1,20 @@
 programa {
   funcao inicio() {
     real nota1, nota2, nota3, media
+    cadeia nome
     
     escreva("Programa para calcular média\n\n")
 
-    escreva("Digite a primeira nota:")
+    escreva("\nInforme o seu nome: ")
+    leia(nome)
+
+    escreva("\nDigite a primeira nota:")
     leia(nota1)
 
-    escreva("Digite a segunda nota:")
+    escreva("\nDigite a segunda nota:")
     leia(nota2)
 
-    escreva("Digite a terceira nota:")
+    escreva("\nDigite a terceira nota:")
     leia(nota3)
 
     media = (nota1 + nota2 +nota3) / 3
