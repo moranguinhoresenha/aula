@@ -3,9 +3,9 @@ programa {
     real nota1, nota2, nota3, media
     cadeia nome
     
-    escreva("===========================")
-    escreva("Programa para calcular média\n\n")
-    escreva("===========================\n")
+    escreva("============================\n")
+    escreva("Programa para calcular média\n")
+    escreva("============================\n")
 
     escreva("\nInforme o seu nome: ")
     leia(nome)
