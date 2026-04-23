@@ -25,7 +25,7 @@ programa {
     // Calcular e exibir média
     media = (nota1 + nota2 +nota3) / 3
     mediaFinal = mat.arredondar(media, 0)
-    escreva("\n\n==========================")
+    escreva("\n\n\n==========================")
     escreva("\nAluno: ", nome)
     escreva("\nMédia das notas: ", mediaFinal)
     escreva("\n==========================\n")
