@@ -1,4 +1,5 @@
 programa {
+  inclua biblioteca Matematica
   funcao inicio() {
     real nota1, nota2, nota3, media
     cadeia nome
@@ -10,17 +11,20 @@ programa {
     escreva("\nInforme o seu nome: ")
     leia(nome)
 
-    escreva("\nDigite a primeira nota:")
+    escreva("\nDigite a primeira nota: ")
     leia(nota1)
 
-    escreva("\nDigite a segunda nota:")
+    escreva("\nDigite a segunda nota: ")
     leia(nota2)
 
-    escreva("\nDigite a terceira nota:")
+    escreva("\nDigite a terceira nota: ")
     leia(nota3)
 
     media = (nota1 + nota2 +nota3) / 3
-    escreva("\nA média é: ", media)
+    escreva("\n==========================")
+    escreva("\nAluno: ", nome)
+    escreva("\nMédia das notas: ", media)
+    escreva("\n==========================\n")
 
   }
 }
