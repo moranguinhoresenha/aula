@@ -23,7 +23,7 @@ programa {
 
     // Calcular e exibir média
     media = (nota1 + nota2 +nota3) / 3
-    escreva("\n==========================")
+    escreva("\n\n==========================")
     escreva("\nAluno: ", nome)
     escreva("\nMédia das notas: ", media)
     escreva("\n==========================\n")
