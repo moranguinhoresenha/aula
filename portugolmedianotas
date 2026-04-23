@@ -1,5 +1,4 @@
 programa {
-  inclua biblioteca Matematica
   funcao inicio() {
     real nota1, nota2, nota3, media
     cadeia nome
