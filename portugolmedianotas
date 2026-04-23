@@ -4,10 +4,12 @@ programa {
     real nota1, nota2, nota3, media
     cadeia nome
     
+    // Título
     escreva("============================\n")
     escreva("Programa para calcular média\n")
     escreva("============================\n")
 
+    // Inserção de nome e notas
     escreva("\nInforme o seu nome: ")
     leia(nome)
 
@@ -20,6 +22,7 @@ programa {
     escreva("\nDigite a terceira nota: ")
     leia(nota3)
 
+    // Calcular e exibir média
     media = (nota1 + nota2 +nota3) / 3
     escreva("\n==========================")
     escreva("\nAluno: ", nome)
