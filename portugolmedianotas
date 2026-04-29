@@ -10,24 +10,24 @@ programa {
     escreva("============================\n")
 
     // Inserção de nome e notas
-    escreva("\nInforme o seu nome: ")
+    escreva("\n• Informe o seu NOME: ")
     leia(nome)
 
-    escreva("\nDigite a primeira nota: ")
+    escreva("\n• Digite a primeira nota: ")
     leia(nota1)
 
-    escreva("\nDigite a segunda nota: ")
+    escreva("\n• Digite a segunda nota: ")
     leia(nota2)
 
-    escreva("\nDigite a terceira nota: ")
+    escreva("\n• Digite a terceira nota: ")
     leia(nota3)
 
     // Calcular e exibir média
     media = (nota1 + nota2 +nota3) / 3
     mediaFinal = mat.arredondar(media, 0)
     escreva("\n\n\n==========================")
-    escreva("\nAluno: ", nome)
-    escreva("\nMédia das notas: ", mediaFinal)
+    escreva("\nALUNO: ", nome)
+    escreva("\nMÉDIA: ", mediaFinal)
     escreva("\n==========================\n")
 
   }
