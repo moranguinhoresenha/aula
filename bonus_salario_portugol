@@ -22,9 +22,13 @@ programa {
     escreva("\n• Digite o valor das vendas no mês: \n")
     leia(vendasMes)
 
+    // Cálculo de salário final
+    
     bonus = vendasMes * 0.5
     salarioTotal = salarioFixo + bonus
     salarioFinal = mat.arredondar(salarioTotal, 2)
+
+    // Exibir resultados
 
     escreva("\n======================\n")
     escreva("FUNCIONÁRIO: " + nomeFuncionario + "\n")
